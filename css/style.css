@@ -1,3 +1,102 @@
 body {
     text-align: center;
 }
+
+/*Score box*/
+
+.score_pannel_cont {
+  width: 65%;
+  height: 100px;
+  margin: 0 50px 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.points_box {
+  width: 200px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eb9486;
+  border-radius: 4px 4px 4px 4px;
+}
+.points_num {
+  font-size: 36px;
+  color: white;
+}
+
+.score,
+.choose_player {
+  font-size: 32px;
+  padding: 0;
+  margin: 15px 0 15px 0;
+  text-align: center;
+  color: #4f4643;
+  color: #d2c08e;
+}
+
+.score {
+  position: absolute;
+  float: left;
+}
+
+/*Choose player box*/
+
+.choose_text_player {
+  border: 2px solid #d2c08e;
+  margin: 0 50px 0 50px;
+}
+
+.choose_player_box {
+  width: 200;
+  height: 140px;
+  margin: 0 50px 0 50px;
+  border: 1px solid #d2c08e;
+  background-color: #d2c08e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.char_cat_girl_btn {
+  width: 80px;
+  height: 50px;
+  background-color: pink;
+}
+
+.choose_btn {
+  border: none;
+  cursor: pointer;
+}
+
+.choose_btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.choose_btn:hover {
+  transform: rotateX(0)rotateY(180deg)rotateZ(0);
+  transition: 1s;
+}
+.choose_btn:focus {
+  outline: 2px solid #cab063;
+  border-radius: 4px 4px 4px 4px;
+}
+
+img {
+  width: 60px;
+  height: 120px;
+  background-color: transparent;
+  margin-left: 15px;
+  margin-right: 15px;
+}
